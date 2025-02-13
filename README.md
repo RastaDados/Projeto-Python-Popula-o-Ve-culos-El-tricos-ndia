@@ -14,6 +14,54 @@ O objetivo principal do projeto é fornecer uma visão detalhada sobre a distrib
 <hr>
 <br>
 
+<h1>Entendendo a base de dados</h1>
+Este conjunto de dados fornece informações abrangentes sobre a população de Veículos Elétricos (VEs) em várias regiões e períodos de tempo. Inclui várias medições relacionadas ao registro de veículos, elegibilidade para programas de veículos de combustível alternativo limpo e sua autonomia elétrica e preços. Os dados abrangem vários estados e marcas de veículos, fornecendo uma visão ampla do mercado de VEs e seu desenvolvimento.
+
+<h3><b>Colunas:</b></h3>
+
+<b>Estado:</b> O estado dos EUA onde o veículo está registrado.
+
+<b>Ano do modelo:</b> ano em que o modelo do veículo foi fabricado.
+
+<b>Marca:</b> O fabricante do veículo, como:
+TESLA
+
+- BMW
+
+- CHEVROLET
+
+- VOLKSWAGEN
+
+- RIVIAN
+
+- TOYOTA
+
+- NISSAN
+
+- … (e mais)
+
+<b>Tipo de veículo elétrico:</b> Tipo de veículo elétrico, categorizado como:
+
+Veículo elétrico a bateria (BEV)
+
+Veículo elétrico híbrido plug-in (PHEV)
+
+<b>Alcance elétrico:</b> Alcance do veículo somente com energia elétrica, medido em milhas.
+
+Preço de varejo sugerido pelo fabricante (MSRP) do veículo .
+
+<b>Distrito legislativo:</b> distrito legislativo associado ao local de registro do veículo.
+
+<b>Elegibilidade CAFV Simples:</b> Um indicador simplificado da elegibilidade do veículo para o programa Clean Alternative Fuel Vehicle (CAFV). Os valores possíveis são:
+
+Veículos com combustível alternativo limpo elegíveis
+
+Elegibilidade desconhecida devido à autonomia da bateria não pesquisada
+
+Não elegível devido à baixa autonomia da bateria
+
+
+
 <h1>Tecnologias Utilizadas</h1>
 
 <b>Linguagem:</b> Python
