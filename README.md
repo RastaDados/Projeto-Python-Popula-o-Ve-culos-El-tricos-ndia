@@ -60,7 +60,8 @@ Elegibilidade desconhecida devido à autonomia da bateria não pesquisada
 
 Não elegível devido à baixa autonomia da bateria
 
-
+<hr>
+<br>
 
 <h1>Tecnologias Utilizadas</h1>
 
