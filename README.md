@@ -91,6 +91,7 @@ fabricantes = df["Make"].value_counts().reset_index()
                   title="Veículos por Fabricante")
     st.plotly_chart(fig1)
 ```
+![Graf 1 pag 1](https://github.com/user-attachments/assets/8a26eceb-7ba3-486a-ac2d-1314daef64bd)
 
 <br>
 
@@ -101,6 +102,7 @@ Mostra a proporção entre os diferentes tipos de veículos elétricos.
  fig2 = px.pie(df, names="Electric Vehicle Type", title="Distribuição por Tipo de Veículo Elétrico")
     st.plotly_chart(fig2)
 ```
+![Graf 2 pag 1](https://github.com/user-attachments/assets/faa7f4d3-041f-4f5a-9138-1aaf170b6246)
 
 <br>
 
@@ -114,6 +116,8 @@ fig3 = px.histogram(df, x="Model Year", title="Distribuição dos Veículos por 
 elif escolha == "Autonomia e Preço":
     st.title("Relação entre Autonomia e Preço")
 ```
+![Graf 3 pag 1](https://github.com/user-attachments/assets/fe3ee820-126e-42ac-8596-4548c5fb264c)
+
 
 <hr>
 <br>
@@ -130,6 +134,7 @@ Mostra como o preço de um veículo elétrico varia com sua autonomia.
     st.plotly_chart(fig4)
     
 ```
+![Graf 1 pag 2](https://github.com/user-attachments/assets/7ecdd283-962b-4558-92bc-2c62bb032832)
 
 <br>
 
@@ -140,6 +145,7 @@ Exibe a dispersão dos valores de autonomia entre diferentes categorias de veíc
 fig5 = px.box(df, x="Electric Vehicle Type", y="Electric Range", title="Distribuição da Autonomia por Tipo de Veículo")
     st.plotly_chart(fig5)
 ```
+![Graf 2 pag 2](https://github.com/user-attachments/assets/0f796cb4-d03d-44fc-b144-c1a4084ede6c)
 
 <h3><b>Evolução da autonomia ao longo dos anos</b></h3>
 Mostra como a autonomia dos veículos elétricos tem evoluído ao longo dos anos de fabricação.
@@ -149,6 +155,7 @@ Mostra como a autonomia dos veículos elétricos tem evoluído ao longo dos anos
                       title="Evolução da Autonomia ao Longo dos Anos", labels={"Model Year": "Ano do Modelo", "Electric Range": "Autonomia (milhas)"})
     st.plotly_chart(fig6)
 ```
+![Graf 3 pag 2](https://github.com/user-attachments/assets/d28bec09-f525-4f76-908f-b8cf9564b50e)
 
 <hr>
 <br>
@@ -168,6 +175,7 @@ estados = df["State"].value_counts().reset_index()
                   title="Veículos por Estado")
     st.plotly_chart(fig7)
 ```
+![Graf 1 pag 3](https://github.com/user-attachments/assets/ddb17e72-da01-4c12-b4f7-284a38e224af)
 
 <br>
 
@@ -178,6 +186,7 @@ Permite avaliar a presença de veículos elétricos em diferentes regiões legis
 fig8 = px.histogram(df, x="Legislative District", title="Distribuição por Distrito Legislativo")
     st.plotly_chart(fig8)   
 ```
+![Graf 2 pag 3](https://github.com/user-attachments/assets/8bff5bfe-c1a0-4030-8bf6-1d480cf571b5)
 
 <hr>
 <br>
